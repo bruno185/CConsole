@@ -1,6 +1,6 @@
 // CConsole.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
 //
-
+// exemple d'appel à une fonction en assembleur, avec passage de paramètres, et partage d'une variable globale.
 #include <iostream>
 extern "C"  int DoAdd(int i,int j);
 extern "C" int i = 0;
